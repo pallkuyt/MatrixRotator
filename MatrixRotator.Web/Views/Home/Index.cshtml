@@ -1,0 +1,21 @@
+﻿@model MatrixRotator.Web.Models.IntegerMatrix
+
+@{
+    ViewBag.Title = "Matrix Rotator";
+}
+
+<h2>@ViewBag.Title</h2>
+
+@if (Model != null)
+{
+    <div>
+        @Html.Partial("_Matrix", Model)
+    </div>
+
+    @Html.ActionLink("Rotate", "Rotate", null, new { @class="btn btn-default" })
+
+}
+else
+{
+    <span>Please upload the matrix</span>
+}

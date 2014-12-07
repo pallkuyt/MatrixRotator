@@ -1,0 +1,9 @@
+﻿@using (Html.BeginForm("UploadMatrix", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="btn-group file-upload">
+        <span id="selectedFile" class="btn btn-default btn-file">
+            Browse <input type="file" name="uploadFile" />
+        </span>
+        <input value="Upload" type="submit" class="btn btn-info" />
+    </div>
+}

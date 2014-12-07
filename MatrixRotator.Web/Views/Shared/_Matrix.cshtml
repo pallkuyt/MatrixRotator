@@ -1,0 +1,15 @@
+﻿@model MatrixRotator.Web.Models.IntegerMatrix
+
+<table class="table table-bordered">
+    <tbody>
+        @for (int i = 0; i < Model.Size; i++)
+        {
+            <tr>
+                @for (int j = 0; j < Model.Size; j++)
+                {
+                    <td class="centered">@Model[i, j]</td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

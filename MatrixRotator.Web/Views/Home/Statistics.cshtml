@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MatrixRotator.Web.Models.Statistic>
+
+@{
+    ViewBag.Title = "Rotation Statistics";
+}
+
+<h2>Statistics</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MatrixSize)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Operations)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ElapsedMiliseconds)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RotationDate)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MatrixSize)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Operations)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ElapsedMiliseconds)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RotationDate)
+            </td>
+        </tr>
+    }
+</table>

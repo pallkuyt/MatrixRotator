@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixRotator.Web.Tests", "MatrixRotator.Web.Tests\MatrixRotator.Web.Tests.csproj", "{169E7CF6-214A-4EB5-901D-4244318650A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{577C75A4-84E7-4446-9737-CDCAF0139AA5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixRotator.Web", "MatrixRotator.Web\MatrixRotator.Web.csproj", "{DE462037-C80C-42ED-8386-5ACDD820FAA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{169E7CF6-214A-4EB5-901D-4244318650A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169E7CF6-214A-4EB5-901D-4244318650A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169E7CF6-214A-4EB5-901D-4244318650A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169E7CF6-214A-4EB5-901D-4244318650A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE462037-C80C-42ED-8386-5ACDD820FAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE462037-C80C-42ED-8386-5ACDD820FAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE462037-C80C-42ED-8386-5ACDD820FAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE462037-C80C-42ED-8386-5ACDD820FAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
